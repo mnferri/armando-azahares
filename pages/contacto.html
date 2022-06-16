@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a Armando Azahares </title>
+    <!-- CDN BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Link de mi css-->
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<!-- Aquí comienza el body de mi home -->
+<body>
+
+<!-- Aquí comienza el Header de mi web. El mismo incluirá un menu y el logo del emprendimiento-->
+
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class=".container-fluid">
+          <a class="navbar-brand" href="../index.html"> <img src="/images/logo.jpeg" alt="logo Armando Azahares" class="imgLogo"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comocomprar.html">Cómo comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<!-- Aquí el la sección principal de mi sitio-->
+<div class=".container-fluid">
+        <main>
+    <h1> COMUNICATE CON NOSOTRAS </h1>
+    <h2>Somos Velas Armando Azahares </h2>
+        </main>
+
+    <section>
+        <h3>Formulario de Contacto</h3>
+    <form action="" class="formulario">
+        <fieldset>
+            <Legend class="tituloFormulario">Formulario de contacto</Legend>
+        <div>
+            <label for="nombre">
+                Completá tu nombre
+            </label>
+            <input type="text" name="nombre" placeholder="Tu nombre">
+        </div>
+        <div>
+            <label for="empresa">
+                Razón Social / Nombre de la emmpresa
+            </label>
+            <input type="text" name="empresa" placeholder="Nombre de la empresa">
+        </div>
+        <div>
+            <label for="mail">
+                E-Mail
+            </label>
+            <input type="mail" name="mail" placeholder="Indica tu correo electronico">
+        </div>
+        <div>
+            <label for="compras">
+                Tipo de compra
+            </label>
+            <select name="compras" id="">
+                <option value="mayorista">Mayorista</option>
+                <option value="minorista">Minorista</option>
+                <option value="personal">Uso personal</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+        </div>
+        </fieldset>
+    </form>
+    </section>
+
+    <section class="redes">
+            <h4>Nuestras redes sociales</h4>
+        <div >
+            <a href="https://vt.tiktok.com/ZSdsf19Lm/" target="_blank"> <span> <img src="/images/tik-tok.png" alt="logo de tik tiktok" class="logoRRSS"> velasarmandoazahares_</span></a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/velasarmandoazahares_/" target="_blank"><span> <img src="/images/instagram.png" alt="logo de instagram" class="logoRRSS"> @velasarmandoazahares_ </span> </a>
+        </div>
+    </section>
+
+    <section class="telefonos">
+        <h4>Nuestros telefonos</h4>
+        
+        <img src="/images/whatsapp.png" alt="logo whatsapp" class="logoRRSS" > <span> +54 9 11 3216-7334</span>
+    </dsection>
+
+    <section class= "mapa">
+        <h4> Punto de entrega </h4>
+        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.62165938486!2d-58.38788648458867!3d-34.714721470887326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd39a6cd6631%3A0xa2020a489afd6309!2sATL%2C%20Dr.%20Guillermo%20Gaebeler%202262%2C%20B1822%20Lan%C3%BAs%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1654546737228!5m2!1ses-419!2sar" width="650;" height="450;" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+</div>
+<!-- Aquí el footer de mi web. Se repetirà a lo largo de todo el sitio-->
+<footer>
+    Desarrollado por  <a href="https:www.mnfcomunicacion.com.ar" target="_blank">  MNF COMUNICACIÓN </a>
+    <p> Todos los derechos reservados. Buenos Aires, Argentina </p>
+</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
