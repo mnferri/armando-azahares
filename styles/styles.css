@@ -1,0 +1,212 @@
+/*hoja de estilos del sitio Armando Azahares*/
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*Estilos especificos para el header del sitio Armando Azahares*/
+header{
+    background-color: #ff9d9d;
+    display: flex;
+    justify-content: space-around;
+}
+.imgLogo{
+    width: 3rem;
+}
+nav{
+    align-items: center;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+margin: 1rem;
+padding: .5rem;
+background-color: rgb(250, 235, 235);
+border-radius: 30px;
+width: 11rem;
+text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    text-align: space-around;
+}
+
+/*Estilos comunes para todo el sitio Armando Azahares*/
+h1{
+    text-transform: uppercase; 
+    text-decoration: underline;
+    color: rgb(238, 145, 111);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 1rem;
+    text-transform: uppercase;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+.btn{
+background-color: rgb(250, 235, 235);
+border-radius: 30px;
+width: 6rem;
+}
+
+/*Estilos especificos para el main del sitio Armando Azahares*/
+
+/*Estilos especificos para el fototer del sitio Armando Azahares*/
+
+footer {
+background-color: #ff9d9d;
+}
+footer a{
+    font: 1rem;
+}
+
+
+/*--- estilos del index --*/
+/*Contenedor Padre Index*/
+
+/* Hijos Index*/
+
+main{
+margin-top: 1.5rem;
+
+}
+
+section{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+.card{
+    margin: auto;
+    justify-items: center;
+}
+
+p a{
+    text-decoration: none;
+}
+
+/*--- estilos de nosotras --*/
+
+.mainNosotros{
+
+}    
+
+.sectionNosotros{
+    padding: 1rem;
+}
+
+.sectionNosotros-dos{
+    display: flex;
+    align-items: center;
+}
+.pNosotras{
+    margin: 3rem;
+}
+.fotoNosotras{
+    width: 25rem;
+    height: 25rem;
+    margin-left: 23rem;
+    }
+/*--- estilos de como comprar --*/
+
+
+    
+/* Hijos Contacto*/   
+
+    .mainComoComprar p {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+.sectionComoComprar{
+  max-width: 35rem;
+  margin-bottom: 3rem;
+}
+
+.sectionComoComprar-dos{
+ margin-top: 3rem;
+}
+.sectionComoComprar-tres{
+    grid-area: sectionComoComprar-tres;
+}
+
+.sectionComoComprar-cuatro{
+    grid-area: sectionComoComprar-cuatro;
+}
+
+.sectionComoComprar-cinco{
+    grid-area: sectionComoComprar-cinco;
+}
+
+.comoComprar{
+    list-style: none;
+
+}
+
+/*--- estilos del productos --*/
+
+/*--- estilos de contacto --*/
+
+/* Contacto*/
+.logoRRSS{
+    height:1rem;
+}
+
+.formulario{
+    margin: 3rem;
+    border: solid;
+    border-color: rgb(247, 197, 234);
+    text-transform: uppercase;
+    height: 25rem;
+    width: 30rem;
+    font-size: 1.2r;
+}
+.tituloFormulario{
+    text-align: center;
+}
+
+.location{
+    height: 25rem;
+    width: 30rem;
+    margin: 3rem;
+}
+
+.telefonos{
+    margin: 10rem;
+
+}
+
+.redes{
+    margin: 10rem;
+    
+}
+
+/* MEDIA QUERIES */
