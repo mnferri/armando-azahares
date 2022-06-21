@@ -1,14 +1,19 @@
 /*hoja de estilos del sitio Armando Azahares*/
 
 /*RESET*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-        
+    }
+    
+
 body {
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
 /*Estilos especificos para el header del sitio Armando Azahares*/
@@ -21,7 +26,6 @@ header{
     width: 3rem;
 }
 nav{
-  
     align-items: center;
     text-align: center;
 }
@@ -34,7 +38,7 @@ margin: 1rem;
 padding: .5rem;
 background-color: rgb(250, 235, 235);
 border-radius: 30px;
-width: 10rem;
+width: 11rem;
 text-decoration: none;
 }
 
@@ -45,6 +49,11 @@ nav ul li a{
     text-align: space-around;
 }
 
+nav ul li a:hover{
+transform: 1;
+background-color: coral;
+border-radius: 30px;
+}
 /*Estilos comunes para todo el sitio Armando Azahares*/
 h1{
     text-transform: uppercase; 
@@ -73,16 +82,12 @@ border-radius: 30px;
 width: 6rem;
 }
 
-
-
-
 /*Estilos especificos para el main del sitio Armando Azahares*/
 
 /*Estilos especificos para el fototer del sitio Armando Azahares*/
 
 footer {
-    background-color: #ff9d9d;
-    width: 100%;
+background-color: #ff9d9d;
 }
 footer a{
     font: 1rem;
@@ -91,26 +96,29 @@ footer a{
 
 /*--- estilos del index --*/
 /*Contenedor Padre Index*/
-.contenedor-fluid{
-gap: 1rem;
-margin-left: 1.5rem;
-}
 
 /* Hijos Index*/
 
 main{
 margin-top: 1.5rem;
-
 }
 
 section{
-    padding-left: 3rem;
-    padding-right: 3rem;
-
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
+
 .card{
     margin: auto;
     justify-items: center;
+}
+
+.card-img-top{
+    transition: 0.5s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.5);
 }
 
 p a{
@@ -119,67 +127,44 @@ p a{
 
 /*--- estilos de nosotras --*/
 
-.contenedorNosotros{
-    height: 100vh;
-    display: grid;
-    grid-template-areas:"header header"
-                        "mainNosotros mainNosotros"
-                        "sectionNosotros sectionNosotros"
-                        "sectionNosotros-dos sectionNosotros-tres"
-                        "footer footer";
-    gap: 1rem;
-    grid-template-rows: auto 1fr 2fr 2fr auto;
-}
-    
-    /* Hijos Nosotros*/
-    
 .mainNosotros{
-    grid-area: mainNosotros;
+
 }    
 
 .sectionNosotros{
-    grid-area: sectionNosotros;
     padding: 1rem;
 }
 
 .sectionNosotros-dos{
-    grid-area: sectionNosotros-dos;
+    display: flex;
+    align-items: center;
 }
-
-.sectionNosotros-tres{
-    grid-area: sectionNosotros-tres;
+.pNosotras{
+    margin: 3rem;
 }
-    .fotoNosotras{
-        width: 20rem;
-        height: 20rem;
-        align-items: center;
+.fotoNosotras{
+    width: 25rem;
+    height: 25rem;
+    margin-left: 23rem;
     }
 /*--- estilos de como comprar --*/
 
-.contenedorComoComprar{
-    height: 100vh;
-    display: grid;
-    grid-template-areas:"header header header header"
-                        "mainComoComprar mainComoComprar mainComoComprar mainComoComprar"
-                        "sectionComoComprar sectionComoComprar sectionComoComprar sectionComoComprar"
-                        "sectionComoComprar-dos sectionComoComprar-tres sectionComoComprar-cuatro sectionComoComprar-cinco"
-                        "footer footer footer footer";
-    gap: 1rem;
-    grid-template-rows: auto 1fr 2fr 2fr auto;
-}
-    
-    /* Hijos Contacto*/
-    
-.mainComoComprar{
-    grid-area: mainComoComprar;
-}    
 
+    
+/* Hijos Contacto*/   
+
+    .mainComoComprar p {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 .sectionComoComprar{
-    grid-area: sectionComoComprar;
+  max-width: 35rem;
+  margin-bottom: 3rem;
 }
 
 .sectionComoComprar-dos{
-    grid-area: sectionComoComprar-dos;   
+ margin-top: 3rem;
 }
 .sectionComoComprar-tres{
     grid-area: sectionComoComprar-tres;
@@ -200,44 +185,40 @@ p a{
 
 /*--- estilos del productos --*/
 
-
-
 /*--- estilos de contacto --*/
 
-
-
-
-    
-    /* Hijos Contacto*/
-   
+/* Contacto*/
 .logoRRSS{
     height:1rem;
 }
 
 .formulario{
     margin: 3rem;
-    border: 1rem;
-    border-color: rgb(250, 232, 215);
+    border: solid;
+    border-color: rgb(247, 197, 234);
     text-transform: uppercase;
-    height: 20rem;
-    width: 35rem;
+    height: 25rem;
+    width: 30rem;
     font-size: 1.2r;
 }
 .tituloFormulario{
     text-align: center;
 }
-.redes{
-    margin: 3rem;
-}
 
-.mapa{
-    height: 20rem;
-    width: 25rem;
+.location{
+    height: 25rem;
+    width: 30rem;
     margin: 3rem;
 }
 
 .telefonos{
-    margin: 3rem;
+    margin: 10rem;
+
+}
+
+.redes{
+    margin: 10rem;
+    
 }
 
 /* MEDIA QUERIES */
