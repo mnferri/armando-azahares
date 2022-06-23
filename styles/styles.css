@@ -82,6 +82,7 @@ border-radius: 30px;
 width: 6rem;
 }
 
+
 /*Estilos especificos para el main del sitio Armando Azahares*/
 
 /*Estilos especificos para el fototer del sitio Armando Azahares*/
@@ -190,12 +191,17 @@ p a{
 /* Contacto*/
 .logoRRSS{
     height:1rem;
+    background-color: #faebeb;
+    font-size: 1.5rem;
 }
+
+.iconoFooter{
+    margin-right: 2rem;
+}
+
 
 .formulario{
     margin: 3rem;
-    border: solid;
-    border-color: rgb(247, 197, 234);
     text-transform: uppercase;
     height: 25rem;
     width: 30rem;
@@ -213,12 +219,18 @@ p a{
 
 .telefonos{
     margin: 10rem;
+}
 
+.telefonos a{
+    font-size: 1.3rem;
 }
 
 .redes{
     margin: 10rem;
-    
+}
+
+.redes a{
+    font-size: 1.3rem;
 }
 
 /* MEDIA QUERIES */
